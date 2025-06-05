@@ -6,11 +6,9 @@
  <!--  <link rel="stylesheet" href="libs/leaflet.css"> -->
   <link rel="stylesheet" href="style.css">
   <link 
-    rel="stylesheet" 
-    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha512-sA+JY1j7DgZth37z6Q8O4pDdqey69LkT7G0E7EyM1jsbZ7/1U0S0F1q8p0ePInG5c93PKpZ+Z04klXxK7xk4Zg==" 
-    crossorigin=""
-  />
+  rel="stylesheet" 
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
 </head>
 <body>
   <header>
@@ -19,24 +17,43 @@
 
   <main>
     <aside id="sidebar">
-      <h2>Filters</h2>
-      <label for="districtSelect">District:</label>
-      <select id="districtSelect">
-        <option value="All">All</option>
-      </select>
-      
-      <label for="rentRange">Rent Range (€):</label>
-      <input type="range" id="rentRange" min="200" max="1500" step="50" value="1500">
-      <span id="rentValue">1500</span>
+  <h2>Filters</h2>
 
-      <label for="roomSelect">Number of Rooms:</label>
-      <select id="roomSelect">
-        <option value="All">All</option>
-        <option value="1">1+</option>
-        <option value="2">2+</option>
-        <option value="3">3+</option>
-      </select>
-    </aside>
+  <label for="districtSelect">District:</label>
+  <select id="districtSelect">
+    <option value="All">All</option>
+  </select>
+
+  <label for="pincodeSelect">Pincode:</label>
+  <select id="pincodeSelect">
+    <option value="All">All</option>
+  </select>
+
+  <label for="rentRangeMin">Min Rent (€):</label>
+  <input type="number" id="rentRangeMin" min="0" value="0">
+
+  <label for="rentRangeMax">Max Rent (€):</label>
+  <input type="number" id="rentRangeMax" min="0" value="1500">
+
+  <label for="sizeMin">Min Size (m²):</label>
+  <input type="number" id="sizeMin" min="0" value="0">
+
+  <label for="roomSelect">Number of Rooms:</label>
+  <select id="roomSelect">
+    <option value="All">All</option>
+    <option value="1">1+</option>
+    <option value="2">2+</option>
+    <option value="3">3+</option>
+  </select>
+
+  <label for="sortSelect">Sort By:</label>
+  <select id="sortSelect">
+    <option value="rentAsc">Rent (Low to High)</option>
+    <option value="rentDesc">Rent (High to Low)</option>
+    <option value="sizeAsc">Size (Small to Large)</option>
+    <option value="sizeDesc">Size (Large to Small)</option>
+  </select>
+</aside>
 
     <section id="content">
       <div id="map"></div>
@@ -48,7 +65,7 @@
     </section>
   </main>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"> </script>
   <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
   <script src="script.js"></script>
