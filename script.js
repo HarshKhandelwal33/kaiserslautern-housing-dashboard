@@ -13,21 +13,30 @@ window.addEventListener('load', function() {
   }, 500);
 
   // Load districts (GeoJSON)
-  //fetch('data/districts.geojson')
-  //  .then(response => response.json())
-  //  .then(geojsonData => {
-  //    L.geoJSON(geojsonData, {
-  //      style: {
- //        color: '#555',
-  //        weight: 2,
-   //       fillOpacity: 0.1
-   //     },
-   //     onEachFeature: function (feature, layer) {
-  //        layer.bindPopup("District: " + feature.properties.name);
-   //     }
-   //   }).addTo(map);
-    //  populateDistrictDropdown(geojsonData);
-   // });
+  fetch('data/districts.geojson')
+  .then(response => response.json())
+  .then(geojsonData => {
+    L.geoJSON(geojsonData, {
+      style: {
+        color: '#555',
+        weight: 2,
+        fillOpacity: 0.1
+      },
+      onEachFeature: function (feature, layer) {
+        // Popup on click
+        layer.bindPopup("District: " + feature.properties.name);
+
+        // Tooltip (always visible)
+        layer.bindTooltip(feature.properties.name, {
+          permanent: true,
+          direction: 'center',
+          className: 'district-label'
+        });
+      }
+    }).addTo(map);
+    populateDistrictDropdown(geojsonData);
+  });
+
 
   // Load housing data and create heatmap
   fetch('data/rent_data.json')
