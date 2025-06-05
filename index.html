@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kaiserslautern Housing Dashboard</title>
+ <!--  <link rel="stylesheet" href="libs/leaflet.css"> -->
+  <link rel="stylesheet" href="style.css">
+  <link 
+    rel="stylesheet" 
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha512-sA+JY1j7DgZth37z6Q8O4pDdqey69LkT7G0E7EyM1jsbZ7/1U0S0F1q8p0ePInG5c93PKpZ+Z04klXxK7xk4Zg==" 
+    crossorigin=""
+  />
+</head>
+<body>
+  <header>
+    <h1>Kaiserslautern Housing Dashboard</h1>
+  </header>
+
+  <main>
+    <aside id="sidebar">
+      <h2>Filters</h2>
+      <label for="districtSelect">District:</label>
+      <select id="districtSelect">
+        <option value="All">All</option>
+      </select>
+      
+      <label for="rentRange">Rent Range (€):</label>
+      <input type="range" id="rentRange" min="200" max="1500" step="50" value="1500">
+      <span id="rentValue">1500</span>
+
+      <label for="roomSelect">Number of Rooms:</label>
+      <select id="roomSelect">
+        <option value="All">All</option>
+        <option value="1">1+</option>
+        <option value="2">2+</option>
+        <option value="3">3+</option>
+      </select>
+    </aside>
+
+    <section id="content">
+      <div id="map"></div>
+      <div id="charts">
+        <h2>Insights</h2>
+        <div id="chart1"></div> <!-- Rent vs. Size -->
+        <div id="chart2"></div> <!-- Rent by District -->
+      </div>
+    </section>
+  </main>
+
+  <script src="libs/leaflet.js"></script>
+  <script src="libs/leaflet.heat.js"></script>
+  <script src="libs/d3.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

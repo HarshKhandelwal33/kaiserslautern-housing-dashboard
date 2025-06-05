@@ -1,0 +1,12 @@
+[
+  {
+    "address": "Example Street 5",
+    "pincode": "67655",
+    "district": "Innenstadt",
+    "rent": 550,
+    "size": 40,
+    "rooms": 2,
+    "latitude": 49.444,
+    "longitude": 7.769
+  }
+]
