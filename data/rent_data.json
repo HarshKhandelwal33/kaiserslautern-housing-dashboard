@@ -1,12 +1,371 @@
 [
-  {
-    "address": "Example Street 5",
-    "pincode": "67655",
-    "district": "Innenstadt",
-    "rent": 550,
-    "size": 40,
-    "rooms": 2,
-    "latitude": 49.444,
-    "longitude": 7.769
-  }
+    {
+        "Address":"Donnersbergerstra\u00dfe 68",
+        "Pincode":67655,
+        "Rent":950,
+        "Zimmer":3,
+        "Size (m\u00b2)":"60 m\u00b2",
+        "Stadtteil":"Innenstadt",
+        "Link":"Angebot 1"
+    },
+    {
+        "Address":"Richard-Wagner-Stra\u00dfe 81",
+        "Pincode":67655,
+        "Rent":1500,
+        "Zimmer":4,
+        "Size (m\u00b2)":"105 m\u00b2",
+        "Stadtteil":"Innenstadt",
+        "Link":"Angebot 2"
+    },
+    {
+        "Address":"Kleestra\u00dfe 7",
+        "Pincode":67655,
+        "Rent":1100,
+        "Zimmer":3,
+        "Size (m\u00b2)":"110 m\u00b2",
+        "Stadtteil":"Innenstadt",
+        "Link":"Angebot 3"
+    },
+    {
+        "Address":"Schmiedstra\u00dfe 10",
+        "Pincode":67655,
+        "Rent":1100,
+        "Zimmer":3,
+        "Size (m\u00b2)":"65 m\u00b2",
+        "Stadtteil":"Innenstadt",
+        "Link":"Angebot 4"
+    },
+    {
+        "Address":"Marie-Juchacz-Stra\u00dfe",
+        "Pincode":67655,
+        "Rent":1000,
+        "Zimmer":3,
+        "Size (m\u00b2)":"85 m\u00b2",
+        "Stadtteil":"Innenstadt",
+        "Link":"Angebot 5"
+    },
+    {
+        "Address":"Moltkestra\u00dfe 29",
+        "Pincode":67655,
+        "Rent":750,
+        "Zimmer":2,
+        "Size (m\u00b2)":"75 m\u00b2",
+        "Stadtteil":"Innenstadt",
+        "Link":"Angebot 6"
+    },
+    {
+        "Address":"L\u00e4mmchesbergstra\u00dfe",
+        "Pincode":67663,
+        "Rent":680,
+        "Zimmer":3,
+        "Size (m\u00b2)":"72 m\u00b2",
+        "Stadtteil":"L\u00e4mmchesberg",
+        "Link":"Angebot 7"
+    },
+    {
+        "Address":"Glockenstra\u00dfe",
+        "Pincode":67655,
+        "Rent":1650,
+        "Zimmer":4,
+        "Size (m\u00b2)":"110 m\u00b2",
+        "Stadtteil":"Innenstadt",
+        "Link":"Angebot 8"
+    },
+    {
+        "Address":"Reichswaldstra\u00dfe",
+        "Pincode":67663,
+        "Rent":740,
+        "Zimmer":2,
+        "Size (m\u00b2)":"55 m\u00b2",
+        "Stadtteil":"Innenstadt",
+        "Link":"Angebot 9"
+    },
+    {
+        "Address":"Auf dem Bannjeruck",
+        "Pincode":67663,
+        "Rent":1500,
+        "Zimmer":3,
+        "Size (m\u00b2)":"115 m\u00b2",
+        "Stadtteil":"B\u00e4njerr\u00fcck",
+        "Link":"Angebot 10"
+    },
+    {
+        "Address":"Berliner Stra\u00dfe",
+        "Pincode":67663,
+        "Rent":470,
+        "Zimmer":1,
+        "Size (m\u00b2)":"72 m\u00b2",
+        "Stadtteil":"Innenstadt",
+        "Link":"Angebot 11"
+    },
+    {
+        "Address":"Kanalstra\u00dfe",
+        "Pincode":67655,
+        "Rent":665,
+        "Zimmer":2,
+        "Size (m\u00b2)":"33 m\u00b2",
+        "Stadtteil":"Innenstadt",
+        "Link":"Angebot 12"
+    },
+    {
+        "Address":"Alleestra\u00dfe",
+        "Pincode":67655,
+        "Rent":630,
+        "Zimmer":2,
+        "Size (m\u00b2)":"62 m\u00b2",
+        "Stadtteil":"Innenstadt",
+        "Link":"Angebot 13"
+    },
+    {
+        "Address":"Tirolfstra\u00dfe",
+        "Pincode":67655,
+        "Rent":910,
+        "Zimmer":2,
+        "Size (m\u00b2)":"72 m\u00b2",
+        "Stadtteil":"Innenstadt",
+        "Link":"Angebot 14"
+    },
+    {
+        "Address":"Werschweilerstra\u00dfe",
+        "Pincode":67655,
+        "Rent":1335,
+        "Zimmer":4,
+        "Size (m\u00b2)":"95 m\u00b2",
+        "Stadtteil":"Innenstadt",
+        "Link":"Angebot 15"
+    },
+    {
+        "Address":"K\u00f6nigstra\u00dfe",
+        "Pincode":67655,
+        "Rent":900,
+        "Zimmer":4,
+        "Size (m\u00b2)":"95 m\u00b2",
+        "Stadtteil":"Innenstadt",
+        "Link":"Angebot 16"
+    },
+    {
+        "Address":"Triftstra\u00dfe",
+        "Pincode":67663,
+        "Rent":1260,
+        "Zimmer":3,
+        "Size (m\u00b2)":"87 m\u00b2",
+        "Stadtteil":"B\u00e4njerr\u00fcck",
+        "Link":"Angebot 17"
+    },
+    {
+        "Address":"Schaffnerstra\u00dfe",
+        "Pincode":67655,
+        "Rent":820,
+        "Zimmer":3,
+        "Size (m\u00b2)":"70 m\u00b2",
+        "Stadtteil":"Innenstadt",
+        "Link":"Angebot 18"
+    },
+    {
+        "Address":"Kurt-Schumacher-Stra\u00dfe 64",
+        "Pincode":67663,
+        "Rent":680,
+        "Zimmer":1,
+        "Size (m\u00b2)":32,
+        "Stadtteil":"Uni-Wohngebiet",
+        "Link":"Angebot 19"
+    },
+    {
+        "Address":"Buchfinkstra\u00dfe 22",
+        "Pincode":67655,
+        "Rent":715,
+        "Zimmer":1,
+        "Size (m\u00b2)":43,
+        "Stadtteil":"Innenstadt",
+        "Link":"Angebot 20"
+    },
+    {
+        "Address":"Alex-M\u00fcller-Stra\u00dfe 95",
+        "Pincode":67663,
+        "Rent":465,
+        "Zimmer":1,
+        "Size (m\u00b2)":22,
+        "Stadtteil":"Innenstadt",
+        "Link":"Angebot 21"
+    },
+    {
+        "Address":"Medicusstra\u00dfe 20",
+        "Pincode":67655,
+        "Rent":350,
+        "Zimmer":1,
+        "Size (m\u00b2)":20,
+        "Stadtteil":"Innenstadt",
+        "Link":"Link"
+    },
+    {
+        "Address":"Mannheimer Stra\u00dfe 180",
+        "Pincode":67655,
+        "Rent":400,
+        "Zimmer":1,
+        "Size (m\u00b2)":17,
+        "Stadtteil":"Innenstadt",
+        "Link":"Link"
+    },
+    {
+        "Address":"Mannheimer Stra\u00dfe 25a",
+        "Pincode":67655,
+        "Rent":435,
+        "Zimmer":1,
+        "Size (m\u00b2)":15,
+        "Stadtteil":"Innenstadt",
+        "Link":"Link"
+    },
+    {
+        "Address":"Pirmasenser Stra\u00dfe",
+        "Pincode":67655,
+        "Rent":450,
+        "Zimmer":1,
+        "Size (m\u00b2)":22,
+        "Stadtteil":"Innenstadt",
+        "Link":"Link"
+    },
+    {
+        "Address":"Logenstra\u00dfe",
+        "Pincode":67655,
+        "Rent":355,
+        "Zimmer":1,
+        "Size (m\u00b2)":12,
+        "Stadtteil":"Innenstadt",
+        "Link":"Link"
+    },
+    {
+        "Address":"Beethovenstra\u00dfe 9",
+        "Pincode":67655,
+        "Rent":365,
+        "Zimmer":1,
+        "Size (m\u00b2)":13,
+        "Stadtteil":"Innenstadt",
+        "Link":"Link"
+    },
+    {
+        "Address":"Kahlenbergstra\u00dfe",
+        "Pincode":67655,
+        "Rent":378,
+        "Zimmer":1,
+        "Size (m\u00b2)":20,
+        "Stadtteil":"Gr\u00fcbent\u00e4lchen",
+        "Link":"Link"
+    },
+    {
+        "Address":"Ottostra\u00dfe",
+        "Pincode":67655,
+        "Rent":320,
+        "Zimmer":1,
+        "Size (m\u00b2)":225,
+        "Stadtteil":"Gr\u00fcbent\u00e4lchen",
+        "Link":"Link"
+    },
+    {
+        "Address":"Emil-Caesar-Stra\u00dfe",
+        "Pincode":67655,
+        "Rent":330,
+        "Zimmer":1,
+        "Size (m\u00b2)":20,
+        "Stadtteil":"Innenstadt",
+        "Link":"Link"
+    },
+    {
+        "Address":"Hauptstra\u00dfe",
+        "Pincode":67655,
+        "Rent":350,
+        "Zimmer":1,
+        "Size (m\u00b2)":11,
+        "Stadtteil":"Oberarnbach",
+        "Link":"Link"
+    },
+    {
+        "Address":"Fabrikstra\u00dfe",
+        "Pincode":67655,
+        "Rent":413,
+        "Zimmer":1,
+        "Size (m\u00b2)":17,
+        "Stadtteil":"Innenstadt",
+        "Link":"Link"
+    },
+    {
+        "Address":"Sch\u00e4ferstra\u00dfe 06",
+        "Pincode":67655,
+        "Rent":400,
+        "Zimmer":1,
+        "Size (m\u00b2)":11,
+        "Stadtteil":"Innenstadt",
+        "Link":"Link"
+    },
+    {
+        "Address":"K\u00f6nigstra\u00dfe",
+        "Pincode":67655,
+        "Rent":360,
+        "Zimmer":1,
+        "Size (m\u00b2)":15,
+        "Stadtteil":"Innenstadt",
+        "Link":"Link"
+    },
+    {
+        "Address":"Trippstadter Stra\u00dfe 32",
+        "Pincode":67655,
+        "Rent":330,
+        "Zimmer":1,
+        "Size (m\u00b2)":15,
+        "Stadtteil":"Hochspeyer",
+        "Link":"Link"
+    },
+    {
+        "Address":"Eisenbahnstra\u00dfe 1A",
+        "Pincode":67655,
+        "Rent":355,
+        "Zimmer":1,
+        "Size (m\u00b2)":19,
+        "Stadtteil":"Innenstadt",
+        "Link":"Link"
+    },
+    {
+        "Address":"Am Harzh\u00fcbel 38",
+        "Pincode":67655,
+        "Rent":450,
+        "Zimmer":1,
+        "Size (m\u00b2)":22,
+        "Stadtteil":"L\u00e4mmchesberg",
+        "Link":"Link"
+    },
+    {
+        "Address":"Am Harzh\u00fcbel",
+        "Pincode":67655,
+        "Rent":450,
+        "Zimmer":1,
+        "Size (m\u00b2)":20,
+        "Stadtteil":"L\u00e4mmchesberg",
+        "Link":"Link"
+    },
+    {
+        "Address":"Fackelstra\u00dfe 13",
+        "Pincode":67655,
+        "Rent":415,
+        "Zimmer":1,
+        "Size (m\u00b2)":21,
+        "Stadtteil":"Innenstadt",
+        "Link":"Link"
+    },
+    {
+        "Address":"Hauptstra\u00dfe 54",
+        "Pincode":67707,
+        "Rent":280,
+        "Zimmer":1,
+        "Size (m\u00b2)":19,
+        "Stadtteil":"Schopp",
+        "Link":"Link"
+    },
+    {
+        "Address":"Moltkestra\u00dfe 10a",
+        "Pincode":67655,
+        "Rent":300,
+        "Zimmer":1,
+        "Size (m\u00b2)":16,
+        "Stadtteil":"Innenstadt",
+        "Link":"Link"
+    }
 ]
