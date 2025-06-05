@@ -1,0 +1,13 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"name": "Sample District"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[7.76, 49.44], [7.78, 49.44], [7.78, 49.46], [7.76, 49.46], [7.76, 49.44]]]
+      }
+    }
+  ]
+}
