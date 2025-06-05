@@ -13,6 +13,7 @@ window.addEventListener('load', function() {
   }, 500);
 
   // Load districts (GeoJSON)
+  // DataSource: https://public.opendatasoft.com/explore/dataset/georef-germany-postleitzahl/information/?flg=en-us&q=kaiserslautern&refine.plz_name=Kaiserslautern&location=11,49.42696,7.74889&basemap=jawg.light
   fetch('data/districts.geojson')
   .then(response => response.json())
   .then(geojsonData => {
@@ -24,14 +25,7 @@ window.addEventListener('load', function() {
       },
       onEachFeature: function (feature, layer) {
         // Popup on click
-        layer.bindPopup("District: " + feature.properties.name);
-
-        // Tooltip (always visible)
-        layer.bindTooltip(feature.properties.name, {
-          permanent: true,
-          direction: 'center',
-          className: 'district-label'
-        });
+        layer.bindPopup(feature.properties.name +" " + feature.properties.plz_name);
       }
     }).addTo(map);
     populateDistrictDropdown(geojsonData);
